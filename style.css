@@ -18,7 +18,7 @@ h1{
 
 }
 
-body{
+.indexBody{
     display: grid;
     background-image: url(bilder/Background\ image.jpg);
     background-size: 100%;
@@ -40,4 +40,84 @@ body{
     margin: 3%;
     width: 20%;
     
+}
+
+.vinyler:hover img {
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+
+}
+
+.vinylBody{
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.albumCover {
+    max-width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+.vinylH1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    background-color:#121212;
+}
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+.info {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.artist {
+    max-width: 200px;
+    display: block;
+    margin: 20px auto;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rubrik {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.varukorg img {
+    width: 50px;
+}
+
+.varukorg {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100px;
 }
