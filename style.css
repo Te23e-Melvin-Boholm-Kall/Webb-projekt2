@@ -1,13 +1,42 @@
-h1{
-    text-align: center;
-    font-size: 50;
-}
+/*Laddar in en bakgrundsbild*/
+.bakgrund{
 
-img{
-
-    /*Gör så att bakgrunden täcker hela skärmen i det elementen den är i.
-    Eftersom bilden laddas i body och det finns en header före bodyn så täcker den bara det elementet.
-    Om jag skulle ta bort h1 så skulle hela sidan täckas av bilden*/
     width: 100vw; 
     height: 100vh;
+    
+}
+
+/*Flyttar rubriken till mitten av skärmen och ändrar font storlek till 50*/
+h1{
+
+    text-align: center;
+    font-size: 50;
+    background-color: white;
+    margin-top: 0%;
+    padding: 1%;
+    margin-bottom: 0%;
+
+}
+
+body{
+    display: grid;
+    background-image: url(bilder/Background\ image.jpg);
+    background-size: 100%;
+    margin: 0%;
+
+}
+
+#mittendelen{
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0%;
+    opacity: 60%;
+    
+}
+
+.vinyler{
+    margin: 2%;
+    opacity: 100%;
+
 }
