@@ -27,16 +27,17 @@ body{
 }
 
 #mittendelen{
-    background-color: white;
+    background-color:rgba(255, 255, 255, 0.7);
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 0%;
-    opacity: 60%;
+
+    text-align: center;
     
 }
 
 .vinyler{
-    margin: 2%;
-    opacity: 100%;
-
+    margin: 3%;
+    width: 20%;
+    
 }
