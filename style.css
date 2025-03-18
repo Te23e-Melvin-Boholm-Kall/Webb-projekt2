@@ -20,7 +20,7 @@ h1{
 
 .indexBody{
     display: grid;
-    background-image: url(bilder/Background\ image.jpg);
+    background-image: url(bilder/Background\ image.webp);
     background-size: 100%;
     margin: 0%;
 
@@ -113,6 +113,13 @@ p {
 
 .varukorg img {
     width: 50px;
+}
+
+.varukorg:hover img {
+
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+
 }
 
 .varukorg {
