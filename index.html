@@ -10,39 +10,49 @@
 </head>
 
 <body class="indexBody">
-
     <div class="header">
         <div class="rubrik">
             <h1>Vinyl</h1>
         </div>
-
         <div class="varukorg">
-            <button><img src="bilder/Shopping cart.webp" alt="cart"></button>
+            <button id="cartButton"><img src="bilder/Shopping cart.webp" alt="cart"></button>
         </div>
     </div>
 
-    <div id="mittendelen">
-        <a href="theCollegeDropout.html" class="vinyler"><img src="./bilder/The College Dropout.webp"
-                alt="theCollegeDropout" class="vinyler"></a>
-        <a href="theCollegeDropout.html" class="vinyler"><img src="./bilder/To Pimp A Butterfly.webp"
-                alt="theCollegeDropout" class="vinyler"></a>
-        <a href="theCollegeDropout.html" class="vinyler"><img src="./bilder/Offline.webp" alt="theCollegeDropout"
-                class="vinyler"></a>
-        <a href="theCollegeDropout.html" class="vinyler"><img src="./bilder/1999.webp" alt="theCollegeDropout"
-                class="vinyler"></a>
-        <a href="theCollegeDropout.html" class="vinyler"><img src="./bilder/Illmatic.webp" alt="theCollegeDropout"
-                class="vinyler"></a>
-        <a href="theCollegeDropout.html" class="vinyler"><img src="./bilder/Operation Doomsday.webp"
-                alt="theCollegeDropout" class="vinyler"></a>
-        <a href="theCollegeDropout.html" class="vinyler"><img src="./bilder/KD3.webp" alt="theCollegeDropout"
-                class="vinyler"></a>
-        <a href="theCollegeDropout.html" class="vinyler"><img src="./bilder/Good Kid MAAD City Deluxe.webp"
-                alt="theCollegeDropout" class="vinyler"></a>
-        <a href="theCollegeDropout.html" class="vinyler"><img src="./bilder/The Blueprint.webp" alt="theCollegeDropout"
-                class="vinyler"></a>
-
+    <div id="cart" class="cart hidden">
+        <h2>Varukorg</h2>
+        <ul id="cartItems"></ul>
+        <button id="checkoutButton">Checkout</button>
     </div>
 
+    <div id="mittendelen">
+        <button class="vinyler" data-name="The College Dropout">
+            <img src="./bilder/The College Dropout.webp" alt="The College Dropout">
+        </button>
+        <button class="vinyler" data-name="To Pimp A Butterfly">
+            <img src="./bilder/To Pimp A Butterfly.webp" alt="To Pimp A Butterfly">
+        </button>
+        <button class="vinyler" data-name="Offline">
+            <img src="./bilder/Offline.webp" alt="Offline">
+        </button>
+        <button class="vinyler" data-name="1999">
+            <img src="./bilder/1999.webp" alt="1999">
+        </button>
+        <button class="vinyler" data-name="Illmatic">
+            <img src="./bilder/Illmatic.webp" alt="Illmatic">
+        </button>
+        <button class="vinyler" data-name="Operation Doomsday">
+            <img src="./bilder/Operation Doomsday.webp" alt="Operation Doomsday">
+        </button>
+        <button class="vinyler" data-name="KD3">
+            <img src="./bilder/KD3.webp" alt="KD3">
+        </button>
+        <button class="vinyler" data-name="Good Kid MAAD City Deluxe">
+            <img src="./bilder/Good Kid MAAD City Deluxe.webp" alt="Good Kid MAAD City Deluxe">
+        </button>
+        <button class="vinyler" data-name="The Blueprint">
+            <img src="./bilder/The Blueprint.webp" alt="The Blueprint">
+        </button>
+    </div>
 </body>
-
 </html>
